@@ -1,4 +1,4 @@
-# :horse: Preact _without_ Babel, ES2015 or JSX
+# :horse: Preact in ES3: _without_ Babel, ES2015 or JSX
 
 [Preact] doesn't require that you use any sort of build tooling or transpiler.
 
