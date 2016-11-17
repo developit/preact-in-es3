@@ -8,7 +8,7 @@ var h = preact.h;
 function createClass(obj) {
 	// sub-class Component:
 	function F(){ preact.Component.call(this); }
-	var p = F.prototype = Object.create(preact.Component.prototype);
+	var p = F.prototype = new preact.Component;
 	// copy our skeleton into the prototype:
 	for (var i in obj) {
             if (i === 'getDefaultProps' && typeof obj.getDefaultProps === 'function') {
