@@ -8,4 +8,4 @@ Examples are included for both "Classful" Components, and stateless pure functio
 
 > [View Demo on JSFiddle](http://jsfiddle.net/developit/t4aycadw/)
 
-[Preact]: https://git.io/preact
+[Preact]: https://github.com/preactjs/preact
